@@ -322,11 +322,15 @@ input[type="submit"] {
 }
 
 .footer-link{
-    margin-left: 40px;
+    margin-left: 20px;
+}
+
+.footer-link:first-of-type {
+    margin-left: 0;
 }
 
 .footer-link:last-of-type {
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 
