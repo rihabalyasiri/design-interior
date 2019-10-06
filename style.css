@@ -1,0 +1,335 @@
+/***********  Basic   ***********/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Lora', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/********* Header   ***********/
+
+header {
+    width:100%;
+    height: 90vh;
+    position: relative;
+}
+
+/**********  Header Block   **********/
+
+.header-block {
+    display: flex;
+    width:100%;
+    height: 90vh;
+    
+}
+
+.header-block-1 {
+    flex: 0 1 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title {
+    color:#2e2e2e;
+    font-size: 7rem;
+    letter-spacing: 6px;
+}
+
+.header-subtitle {
+    color:#2e2e2e;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-top: 50px;
+}
+
+.header-block-2 {
+    flex: 0 1 65%;
+}
+
+.header-img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav {
+    width:100%;
+    height: 10vh;
+    background: #2e2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    
+}
+
+.log-block {
+    flex-basis: 30%;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-basis: 70%;
+    justify-content: space-around;
+    letter-spacing: 2px;
+}
+
+.menu-element {
+
+}
+
+.menu-link {
+    color:white;
+    font-size: 1.5rem;
+
+}
+
+
+
+/************   section 2  ***********/
+
+.section-2 {
+     width:100%;
+     background: #2e2e2e;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-bottom: 10%;
+}
+
+.section-2-block {
+    flex-basis:60%;
+    height: 70%;
+    margin-top: 60px;
+}
+
+.section-2-img {
+    width:100%;
+    height: 100%;
+}
+
+.section-2-article {
+ flex-basis: 40%;
+ margin-left: 40px;
+ margin-right: 40px;
+}
+
+.section-2-title {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-2-paragraph {
+    color: rgb(194, 194, 194);
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.7;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+
+
+/***********  Section 3  ************/
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+
+/************  Section 3 block 1  **********/
+
+.section-3-block-1 {
+    width:100%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-3-title {
+    color:#000;
+    font-size: 5rem;
+    margin: 7% 0 5px 0;
+}
+
+.section-3-paragraph {
+    color:rgb(22, 22, 22);
+    font-size: 1.8rem;
+    word-spacing: 5px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+
+/************  Section 3  block 2 ************/
+
+.section-3-block-2 {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.feature-block {
+    width:30%;
+    height: 20%;
+}
+
+.feature-block-img {
+    width:100%;
+    height: 80%;
+}
+
+.feature-img {
+    width:100%;
+    height: 100%;
+}
+
+.feature-paragraph {
+    color: rgb(152,150,152);
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.video {
+    align-self: center;
+    margin-top: 70px;
+}
+
+
+/************  Section 4   ************/
+
+.section-4 {
+    background: #2e2e2e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+
+/********  Section 4 block 1  *********/
+
+.section-4-block-1 {
+    flex-basis: 35%;
+    align-self: center;
+    margin-top: 90px;
+
+}
+
+.start {
+    text-align: left;
+}
+
+
+
+
+/***********  Section 4 block 2   **********/
+
+.section-4-block-2 {
+    flex-basis: 35%;
+    margin-top: 10%;
+}
+
+
+
+/*************  Contact form ***********/
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color:#fff;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+input,textarea {
+    font-size: 1rem;
+    border-radius: 2px;
+    border:none;
+    outline:none;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    color:#000;
+    font-size: 1.2rem;
+    align-self: flex-start;
+}
+
+
+/********* Footer  *********/
+
+.footer {
+    background: rgb(24,44,48);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 10vh;
+}
+
+.footer-text-style {
+    color:white;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.footer-copyright {
+    margin-left: 20px;
+}
+
+.footer-title {
+
+}
+
+.footer-menu {
+    display: flex;
+
+}
+
+.footer-element {
+
+}
+
+.footer-link{
+    margin-left: 40px;
+}
+
+.footer-link:last-of-type {
+    margin-right: 40px;
+}
+
+
+
+
+
