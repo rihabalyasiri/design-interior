@@ -93,9 +93,7 @@ header {
     letter-spacing: 2px;
 }
 
-.menu-element {
 
-}
 
 .menu-link {
     color:white;
@@ -308,18 +306,13 @@ input[type="submit"] {
     margin-left: 20px;
 }
 
-.footer-title {
 
-}
 
 .footer-menu {
     display: flex;
 
 }
 
-.footer-element {
-
-}
 
 .footer-link{
     margin-left: 20px;
